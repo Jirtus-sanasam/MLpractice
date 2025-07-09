@@ -11,7 +11,7 @@ def get_requirements(file_path: str) -> List[str]:
         requirements = file.readlines()
         requirements= [req.replace('\n', '') for req in requirements]
     
-    # Clean up the requirements list
+    
     requirements = []
     
     if HYPEN_E_DOT in requirements:
